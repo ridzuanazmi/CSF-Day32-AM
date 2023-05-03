@@ -49,6 +49,7 @@ export class DeliveryComponent implements OnInit {
     console.info(">>> item: ")
     const orderItem = this.createOrderItem()
     this.itemArray.push(orderItem)
+    // this.itemArray.push(this.createOrderItem()) same as above
   }
 
   deleteItem(idx: number) {
